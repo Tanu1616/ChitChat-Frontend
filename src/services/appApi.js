@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const appApi = createApi({
     reducerPath: "appApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:5001" || "https://chitchat-api.onrender.com",
+        baseUrl: "https://chitchat-api.onrender.com",
     }),
 
     endpoints: (builder) => ({
